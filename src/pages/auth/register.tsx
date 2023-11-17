@@ -1,11 +1,10 @@
-import Link from "next/link";
 import React from "react";
+import RegisterViews from "../views/auth/Register";
 
 export default function Register() {
   return (
-    <div>
-      <h1>Register Page</h1>
-      Sudah punya akun <Link href={"/auth/login"}>disini</Link>
-    </div>
+    <>
+      <RegisterViews />
+    </>
   );
 }
